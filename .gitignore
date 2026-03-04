@@ -1,0 +1,41 @@
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Build outputs ---
+target/
+bin/
+dist/
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# --- Go tooling ---
+coverage.out
+*.coverprofile
+
+# --- Runtime / local data ---
+config.json
+pool.db
+*.db
+*.sqlite
+*.sqlite3
+*.log
+data/
+
+# --- Python tooling ---
+scripts/__pycache__/
+*.pyc
+
+# --- Environment files ---
+.env
+.env.*
+docs
+api_*.json
+blocknet-pool
